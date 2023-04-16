@@ -1,0 +1,112 @@
+/* Desktop - 1 */
+#n2_3 {
+	position: relative;
+    width: 1440px;
+    height: 1806px;
+	overflow: hidden;
+	background: rgb(255, 255, 255);
+}
+ 
+	/* 스크린샷 2023-03-19 201856 1 */
+	#n18_2 {
+		position: relative;
+        background-image: url("https://s3-alpha-sig.figma.com/img/954b/f5eb/54f60c95f682789919148b2666b36441?Expires=1679875200&Signature=HwpEgEBJPnPOMHJnD6G-TAOi820TE0h5xNxMGcN9U7~7tD0r9wMxomocTuyoidZ3ORVlsCtTJ9vfxQ8ZBJEQus2EL2nvRdnO7LZBrdDj9OMRjHMvvEk2Tet2H7I~i1Kv2xWO~BGDFKfA2aBhfNjg0k-9SDnI6KdWVPybixl3zCsuxOsR02KUnPVMoMA659fJMRDODSNx2WddpfQjPlCo84wfRA4wcL5b3r981TSiiqYHY-cp-U3F0AdNbpoBfcR84lVWhVT5lSzWVA~bIiSZCKgNsqdm-dcaFQZ-l03N6GYYhXq4rLZFM04pkGMkFYci-wQtb~VUYWWDXORHdGU3Vg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 1440px;
+		height: 1819px;
+        
+	}
+ 
+	/* Rectangle 13 */
+	#n2_40 {
+		position: relative;
+        left: 134px;
+		width: 1172.18px;
+		top: -1300px;
+		height: 874px;
+	}
+ 
+	/* warning_FILL0_wght400_GRAD0_opsz48 1 */
+	#n2_45 {
+		position: relative;
+        background-image: url("https://s3-alpha-sig.figma.com/img/17a9/0d78/76e8aaf151dec7ec122de60539959ad4?Expires=1679875200&Signature=lwGhSO7VY-Ym~KxTaL07rwnTJmtH9M~3uSvD~j3Okgfzgs7rbwlmle-ieNFx3OsLpKYtDrgsDCF73tq88EnVDkSSehynEzvyRXhOS3-jTWTeJnhkMiaEU7QNy5hUJn4COmxT1frKft504xNsC7v-hj3zR4KNf2PCY9AyBctx8SEGtk6ueWYAnro3X01-pb9Bo~gIsaeQOMW9yYUUgo42OJgGJX52yt1g4verWk7rpIbu7RcYBz4eP-qA1KO3F14ZnLNDM~glmQo48ER6qwsLm0UtYJ4XeNvPLUacRpJrm5geDWER5VlkqjLP0Dx-GRbqTSRiG-1rnn~-p5NLcCph6Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		left: 670px;
+		width: 100px;
+		top: -2100px;
+		height: 100px;
+	}
+ 
+	/* 전화번호 인증을 해야 사용가능합니다 하시겠습니까? */
+	#n2_41 {
+		position: relative;
+        font-family: Inter;
+		font-size: 43.3916px;
+		font-weight: 400;
+		letter-spacing: 0px;
+		color: rgb(0, 0, 0);
+		vertical-align: middle;
+		justify-content: flex-start;
+		width: 957px;
+		transform: translate(0px, 0px);
+		line-height: 52.5136px;
+		height: 58px;
+		left: 242px;
+		top: -1900px;
+        font-size: 40px;
+	}
+ 
+	/* Rectangle 14 */
+	#n2_42 {
+		position: relative;
+        background: rgb(255, 255, 255);
+		border-radius: 40px;
+		left: 603px;
+		width: 235px;
+		top: -1700px;
+		height: 107px;
+	}
+ 
+
+	.button {
+		position: absolute;
+		top: 1155px;
+		left: 600px;
+		height: 110px;
+		width: 240px;
+	  }
+	  .button button {
+		height: 100%;
+		width: 100%;
+		font-size: 35px;
+		border-radius: 45px;
+		cursor: pointer;
+		transition: all 0.4s;
+	  }
+	  .button button:focus {
+		outline: none;
+	 }
+	 .button button:hover {
+		background-color: #CEE3F6;
+	 }
+
+	 a{
+		position: relative;
+		transition: all .35s;
+		top: 200px;
+		left: 80px;
+		font-size: 40px;
+		text-decoration: none;	
+		color: white;
+		font: bold;
+	}
+
+ 		a:hover{
+		background-color: #1079db;
+	  }
+	  
+  

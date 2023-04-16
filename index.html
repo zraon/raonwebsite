@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>핸드폰 번호로 인증</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" type="text/css">
+    <meta property="og:image" content="라온 프사.png"
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="436">
+    <meta property="og:image:height" content="228">
+    <meta property="og:title" content="핸드폰 번호로 인증">
+    <meta property="og:description" content="핸드폰 번호로 인증">
+  </head>
+  <body>
+    <form>
+      핸드폰 번호 (국번 없이) : <input id="phoneNumber" type="number"/>
+      <button id="phoneNumberButton">핸드폰 번호 전송</button>
+    </form>
+
+    <form>
+      확인 코드 : <input id="confirmCode" />
+      <button id="confrimCodeButton">확인 코드 인증</button>
+    </form>
+
+    <script type="module">
+        window.onload = function() {
+            if (localStorage.getItem('verified') == 'yes') {
+            location.href='./메인화면.html';
+            }
+      }
+
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js";
+      import {
+        getAuth,
+        signInWithPopup,
+        GoogleAuthProvider,
+        signInWithPhoneNumber,
+        RecaptchaVerifier,
+      } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js";
+
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCJT3aoYSnKEbar_mhlWpFOu23Cdl5B2zI",
+        authDomain: "easylogin-9cee0.firebaseapp.com",
+        projectId: "easylogin-9cee0",
+        storageBucket: "easylogin-9cee0.appspot.com",
+        messagingSenderId: "244401152994",
+        appId: "1:244401152994:web:f20508d16a481d63c00fbb",
+        measurementId: "G-66NWQ3WYLF",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+
+      const provider = new GoogleAuthProvider();
+      const auth = getAuth();
+      auth.languageCode = "ko";
+
+      window.recaptchaVerifier = new RecaptchaVerifier(
+        "phoneNumberButton",
+        {
+          size: "invisible",
+          callback: (response) => {
+            // reCAPTCHA solved, allow signInWithPhoneNumber.
+            onSignInSubmit();
+          },
+        },
+        auth
+      );
+
+      document
+        .getElementById("phoneNumberButton")
+        .addEventListener("click", (event) => {
+          event.preventDefault();
+
+          const phoneNumber = document.getElementById("phoneNumber").value;
+          const appVerifier = window.recaptchaVerifier;
+
+          signInWithPhoneNumber(auth, "+82" + phoneNumber, appVerifier)
+            .then((confirmationResult) => {
+              // SMS sent. Prompt user to type the code from the message, then sign the
+              // user in with confirmationResult.confirm(code).
+              window.confirmationResult = confirmationResult;
+              console.log(confirmationResult);
+              // ...
+            })
+            .catch((error) => {
+              console.log(error);
+              // Error; SMS not sent
+              // ...
+            });
+        });
+
+      document
+        .getElementById("confrimCodeButton")
+        .addEventListener("click", (event) => {
+          event.preventDefault();
+          const code = document.getElementById("confirmCode").value;
+          confirmationResult
+            .confirm(code)
+            .then((result) => {
+                localStorage.setItem('verified', 'yes');
+                location.href='./메인화면.html';
+            })
+            .catch((error) => {
+                alert("인증이 제대로 완료되지 않았습니다. 다시 시도해주세요.")
+            });
+        });
+    </script>
+  </body>
+</html>

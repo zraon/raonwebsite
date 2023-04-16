@@ -1,0 +1,284 @@
+/* 가운데 정렬 */
+body{
+    display: grid;
+    justify-items: center;
+}
+
+input{
+    display: grid;
+    justify-items: center;
+}
+
+/* Desktop - 1 */
+#n1_2 {
+	width: 1440px;
+  	height: 1742px;
+	overflow: hidden;
+	background: rgb(193, 240, 255);
+  flex-grow: 0;
+  padding: 0 0 68.8px;
+  background-color: #c1f0ff;
+  
+}
+
+/* menu_FILL0_wght400_GRAD0_opsz48 1 */
+#n7_2 {
+	position: relative;
+	background-image: url("https://s3-alpha-sig.figma.com/img/160e/5c0c/c56b2e41378098e3f538908441a6bbc8?Expires=1679875200&Signature=gbw~sf5fxcCYSIAdeZUUnWkO4G91x~lFFlizemW8UJ-5pkUDNVSHx0RO8ipq7JwQy~tDxc-H9iMzrutm43TUzfwdtcto55UOnXwLZpsKxeTxwStOmkAjhxBKlEsCEUC26bwoFZnb7fshPszZgQAJ3gEsVgEqfGbJnUt8AyZ040o4uBlr3n19UC9DQK9loVVt~W62MNd9jnNDNSnJYA6JHJl-3auX-beZAkUhABg3pXgVITNC3ccxx3TMHxp7TxHbZ1cwdzN6-s0MI4YayUmugZMresHa1Rm3H07WknoVDBDTTcWHiY78aLnY~ImsRQUaMGZAqMMVuNCd3mGoXcQ6oA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	left: 0px;
+	width: 0px;
+	top: 0px;
+	height: 82px;
+
+}
+ 
+	/* Rectangle 1 */
+	#n1_3 {
+		background: rgb(255, 218, 218);
+		box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+		width: 1443px;
+		height: 119px;
+	}
+ 
+	/* Rectangle 2 */
+	#n1_5 {
+		position: relative; 
+		background: rgb(253, 253, 253);
+		border-radius: 50px;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+	
+		width: 1301px;
+		left: 69px;
+		height: 1264px;
+		border-radius: 50px;
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+		border: solid 6px #737070;
+		background-color: #fefefe;
+    
+	}
+ 
+	/* 시간표 */
+	#n9_3 {
+		position: relative;
+		font-family: Inter;
+		font-size: 63.1304px;
+		font-weight: 400;
+		letter-spacing: 0px;
+		color: rgb(0, 0, 0);
+		vertical-align: middle;
+		justify-content: flex-start;
+		transform: translate(0px, 0px);
+		line-height: 76.4022px;
+		width: 117px;
+  		height: 76px;
+		bottom: 1450px;
+		left: 690px;
+		font-size: 39px;
+		font-weight: bold;
+	}
+ 
+	/* 닉네임을 입력하세요 */
+	#n1_6 {
+		position: relative;
+		font-family: Inter;
+ 		font-size: 30.7px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		letter-spacing: 0px;
+		color: rgb(0, 0, 0);
+		vertical-align: middle;
+		justify-content: flex-start;
+		transform: translate(0px, 0px);
+		line-height: 37.1183px;
+		width: 263px;
+        height: 37px;
+		left: 90px;
+		font-size: 28px;
+	}
+ 
+	/* Rectangle 3 */
+	#n1_7 {
+		position: relative;
+		background: rgb(255, 255, 255);
+		border-radius: 77.1714px;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 3.85857px 3.85857px 0px;
+		width: 1255px;
+		height: 77.2px;
+		left: 50px;
+		margin: 37px 89px 0 12px;
+		padding: 12px 13px 12.2px 28px;
+		border-radius: 77.2px;
+		box-shadow: 0 3.9px 3.9px 0 rgba(0, 0, 0, 0.25);
+		border: solid 6.8px #d9d9d9;
+		background-color: #fff;
+		}
+ 
+	/* 메시지를 입력하세요 */
+	#n1_8 {
+		position: relative;
+		font-family: Inter;
+		font-size: 30.7px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		letter-spacing: 0px;
+		color: rgba(0, 0, 0, 0.5);
+		vertical-align: middle;
+		justify-content: flex-start;
+		transform: translate(0px, 0px);
+		line-height: 37.1183px;
+		width: 263px;
+  		height: 37px;
+		bottom: 74px;
+		left: 90px;
+		font-size: 28px;
+	}
+ 
+	/* add_FILL0_wght400_GRAD0_opsz48 1 */
+	#n9_4 {
+		position: relative;
+		background-image: url("https://s3-alpha-sig.figma.com/img/3d98/cd6d/fcb0a09a80a1fcc8b7223efffab5e4af?Expires=1679875200&Signature=Iu2SBT4eX07GeuUrTmjXjJgV6pTqznbVza3356hXVLaJWB5Ba9yxEv7h1tOdzMC49ft2m~aWIssTYX71sKUakzCJAUHypuR045DAfjYPQm3jwbTpDr2q1UwmHmXQyyBIXwDfaZnpWIzInnq7tdKq-1bXr5qiociVHBjxAmKzq2d6Fsdy3cnrDllL-AMS4w7V2Jw4RM9wHQ3v8aro2wjKAh5u7iNk0Fb2RELcsvJ~jgFNs~KPQQL~IllGBlaETQrgH5Xb6rwKsue-k3biqp3JjGypbVzDQUAXowJL~Bh79UUY0e~YzHxqXC6mJJqsCWJD1OkoK2iUnD~Ccgmf8yBBxQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;		
+		width: 65px;
+  		height: 65px;
+		top: -125px;
+	}
+ 
+	/* Rectangle 4 */
+	#n1_9 {
+		position: relative;
+		background: rgb(217, 217, 217);
+		border-radius: 80px;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+		width: 113px;
+		height: 53px;
+		bottom: 185px;
+		left: 1225px;
+	}
+ 
+	/* 전송 */
+	#n1_10 {
+		position: relative;
+		font-family: Inter;
+		font-size: 30.6706px;
+		font-weight: 400;
+		letter-spacing: 0px;
+		color: rgb(0, 0, 0);
+		vertical-align: middle;
+		justify-content: flex-start;
+		transform: translate(0px, 0px);
+		line-height: 37.1183px;
+		height: 37px;
+		width: 57px;
+		left: 1255px;
+		bottom: 230px;
+		font-size: 28px;
+		
+	}
+ 
+	/* Rectangle 5 */
+	#n1_14 {
+		position: relative;
+		background-image: url("https://s3-alpha-sig.figma.com/img/3101/75c4/f774261ded28d299b2b5378487ae948c?Expires=1679875200&Signature=aX6EwUTL9lLaV39WytcXXs6k3857~AXeHx8HnhS9pz7ZRM9abVGcZIbn-zcujNo5zDjTymBQ-6gFPb0NbmnNH04sJ2zqJpOS27aG67Df-GdWAylrBZCQyN7aSREpL1Mhw1easxvS~SZVojbU4gDN~6vr5XsDqV~a8dGJpsGhVPSgQiu1MebmAKxGJpG5Kih3sEnAuuCfIqfkr-rpuRQKfLvbaZe-f1TyvSz9iGLYpAEhhNMiw~EwdFJ0rNdcGjAsmwJ2~wPi5-MGi0hKM2erjabQgO8ouWuShzkn2rKohuCv9bpQwj2JCh1Rm~1ble2N1vUusrwfyY3Dn3~v5PjhVg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		width: 96px;
+		height: 86px;
+		top: -1910px;
+		left: 690px;
+		opacity:0;
+	}
+
+	
+	/* 사이드바 버튼 */
+	input[id="menuicon"] {
+		display: none;
+	  }
+	  input[id="menuicon"] + label {
+		display: block;
+		width: 60px;
+		height: 40px;
+		position: relative;
+		cursor: pointer;
+		top: -1970px;
+		left: 30px;
+		transition: all .35s;
+	  }
+		input[id="menuicon"]:checked + label{
+			left: 500px;
+		}
+		
+	  
+	  input[id="menuicon"] + label span {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 5px;
+		border-radius: 30px;
+		background: #000;
+		transition: all .35s;
+	  }
+
+		
+
+	  input[id="menuicon"] + label span:nth-child(1) {
+		top: 10px;
+	  }
+	  input[id="menuicon"] + label span:nth-child(2) {
+		top: 25px;
+		
+	  }
+	  input[id="menuicon"] + label span:nth-child(3) {
+		bottom: 20px;
+	  }
+
+	  /* 사이드바 버튼 움직임 */
+	 
+	  input[id="menuicon"]:checked + label span:nth-child(1) {
+		opacity:0;
+	  }
+	  input[id="menuicon"]:checked + label span:nth-child(2) {
+		
+		transform:translateY(-20px)rotate(45deg); 
+		
+	  }
+	  input[id="menuicon"]:checked + label span:nth-child(3) {
+		transform:translateY(20px)rotate(-45deg); 
+		
+	  }
+	  /* 사이드바 */
+	  div[class="sidebar"] {
+		width: 500px;
+		height: 1850px;
+		background:#2E9AFE;
+		bottom: 2100px;
+		left: -500px;
+		position: relative;
+		transition: all .35s;
+	  }
+	  input[id="menuicon"]:checked + label + div {
+		left: 0;
+	  }
+
+	  a{
+		position: relative;
+		transition: all .35s;
+		top: 200px;
+		left: 80px;
+		font-size: 40px;
+		text-decoration: none;	
+		color: white;
+		font: bold;
+	}
+
+	a:hover{
+		background-color: #1079db;
+	  }
+	  

@@ -1,0 +1,294 @@
+/* 가운데 정렬 */
+body{
+  display: grid;
+  justify-items: center;
+}
+
+.----, .---- * { box-sizing: border-box; }.---- {
+      background: #ffffff;
+      width: 1440px; height: 1764px;
+      position: relative;
+      overflow: hidden;
+    }
+ .-- {
+      width: 1440px; height: 1802px;
+      position: static;
+    }
+ .rectangle-2 {
+      background: rgba(165, 219, 236, 0.75);
+      width: 1440px; height: 1709px;
+      position: absolute; left: 0px;top: 93px;
+    }
+ .rectangle-1 {
+      background: rgba(255, 210, 210, 0.77);
+  border-style: solid; 
+  border-color: #bababa;
+  border-width: 0px 0px 2px 0px;
+      width: 1440px; height: 93px;
+      position: absolute; left: 0px;top: 0px;
+    }
+ .--2 {
+      width: 231px; height: 48px;
+      position: static;
+    }
+ .------- {
+      color: #000000;
+      text-align: left;
+      font: 400 39.65px 'Inter', sans-serif;
+      position: absolute; left: 611px;top: 20px;
+    }
+ .--- {
+      width: 1440px; height: 1579px;
+      position: static;
+    }
+ .--3 {
+      width: 596px; height: 411px;
+      position: static;
+    }
+ .rectangle-12 {
+      background: #fafafa;
+      border-radius: 20px;
+      width: 596px; height: 347px;
+      position: absolute; left: 80px;top: 700px;
+      box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+ .--4 {
+      color: #000000;
+      text-align: left;
+      font: 400 53px 'Inter', sans-serif;
+      position: absolute; left: 111.1px;top: 636px;
+      width: 101.58px;
+    }
+ .----2 {
+      width: 761px; height: 569px;
+      position: static;
+    }
+ .rectangle-122 {
+      background: #fafafa;
+      border-radius: 20px;
+      width: 761px; height: 506px;
+      position: absolute; left: 589px;top: 1166px;
+      box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+ .----3 {
+      color: #000000;
+      text-align: left;
+      font: 400 53px 'Inter', sans-serif;
+      position: absolute; left: 601px;top: 1103px;
+      width: 258px; height: 89px;
+    }
+ .---2 {
+      width: 423px; height: 569px;
+      position: static;
+    }
+ .rectangle-123 {
+      background: #fafafa;
+      border-radius: 20px;
+      width: 423px; height: 505.73px;
+      position: absolute; left: 80px;top: 1166.27px;
+      box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+ .---3 {
+      color: #000000;
+      text-align: left;
+      font: 400 53px 'Inter', sans-serif;
+      position: absolute; left: 110px;top: 1103px;
+      width: 240px; height: 63px;
+    }
+ .rectangle-124 {
+      background: #fafafa;
+      border-radius: 20px;
+      width: 596px; height: 347px;
+      position: absolute; left: 754px;top: 700px;
+      box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+ .---4 {
+      color: #000000;
+      text-align: left;
+      font: 400 53px 'Inter', sans-serif;
+      position: absolute; left: 785px;top: 636px;
+      width: 148px;
+    }
+ .--5 {
+      background: #ffffff;
+      width: 1440px; height: 494px;
+      position: absolute; left: 0px;top: 93px;
+    }
+ .--6 {
+      width: 1440px; height: 70px;
+      position: static;
+    }
+ .--7 {
+      width: 360.3px; height: 69.76px;
+      position: static;
+    }
+ .rectangle-4 {
+      background: #fcfcfc;
+  border-style: solid; 
+  border-color: #bababa;
+  border-width: 0px 2px 2px 0px;
+      width: 360.3px; height: 69.76px;
+      position: absolute; left: 0px;top: 93.24px;
+    }
+ .--8 {
+      color: #000000;
+      text-align: left;
+      font: 400 39.65px 'Inter', sans-serif;
+      position: absolute; left: 143px;top: 105px;
+      width: 74px; height: 47px;
+    }
+ .----4 {
+      width: 360.3px; height: 69.76px;
+      position: static;
+    }
+ .rectangle-42 {
+      background: #fcfcfc;
+  border-style: solid; 
+  border-color: #bababa;
+  border-width: 0px 2px 2px 0px;
+      width: 360.3px; height: 69.76px;
+      position: absolute; left: 719.8px;top: 93px;
+    }
+ .----- {
+      color: #000000;
+      text-align: left;
+      font: 400 39.65px 'Inter', sans-serif;
+      position: absolute; left: 819px;top: 108px;
+      width: 161px; height: 41px;
+    }
+ .rectangle-43 {
+      background: #fcfcfc;
+  border-style: solid; 
+  border-color: #bababa;
+  border-width: 0px 2px 2px 0px;
+      width: 360.3px; height: 69.76px;
+      position: absolute; left: 360px;top: 93px;
+    }
+ .--9 {
+      color: #000000;
+      text-align: left;
+      font: 400 39.65px 'Inter', sans-serif;
+      position: absolute; left: 502px;top: 108px;
+      width: 75px; height: 47px;
+    }
+ .---5 {
+      width: 360.3px; height: 69.76px;
+      position: static;
+    }
+ .rectangle-44 {
+      background: #fcfcfc;
+  border-style: solid; 
+  border-color: #bababa;
+  border-width: 0px 2px 2px 0px;
+      width: 360.3px; height: 69.76px;
+      position: absolute; left: 1079.7px;top: 93px;
+    }
+ .---6 {
+      color: #000000;
+      text-align: left;
+      font: 400 39.65px 'Inter', sans-serif;
+      position: absolute; left: 1203px;top: 106px;
+      width: 113px; height: 44px;
+    }
+ body {     
+    display: grid;
+    justify-items: center;
+}
+.----{
+  box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+la{
+  font-size: 30px;
+}
+
+/* 게임버튼 */
+.button_1 {
+  position: absolute;
+  top: 92px;
+  left: 5px;
+  height: 70px;
+  width: 350px;
+  }
+  .button_1 button {
+  height: 100%;
+  width: 100%;
+  font-size: 35px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: all 0.4s;
+  }
+  .button_1 button:focus {
+  outline: none;
+ }
+ .button_1 button:hover {
+  background-color: #CEE3F6;
+ }
+
+  /* 숙제창 */
+ .button_2 {
+  position: absolute;
+  top: 92px;
+  left: 365px;
+  height: 70px;
+  width: 350px;
+  }
+  .button_2 button {
+  height: 100%;
+  width: 100%;
+  font-size: 35px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: all 0.4s;
+  }
+  .button_2 button:focus {
+  outline: none;
+ }
+ .button_2 button:hover {
+  background-color: #CEE3F6;
+ }
+
+ /* 시간표 */
+ .button_3 {
+  position: absolute;
+  top: 92px;
+  left: 725px;
+  height: 70px;
+  width: 350px;
+  }
+  .button_3 button {
+  height: 100%;
+  width: 100%;
+  font-size: 35px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: all 0.4s;
+  }
+  .button_3 button:focus {
+  outline: none;
+ }
+ .button_3 button:hover {
+  background-color: #CEE3F6;
+ }
+
+ /* 운동 */
+ .button_4 {
+  position: absolute;
+  top: 92px;
+  left: 1085px;
+  height: 70px;
+  width: 350px;
+  }
+  .button_4 button {
+  height: 100%;
+  width: 100%;
+  font-size: 35px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: all 0.4s;
+  }
+  .button_4 button:focus {
+  outline: none;
+ }
+ .button_4 button:hover {
+  background-color: #CEE3F6;
+ }
